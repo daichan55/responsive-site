@@ -68,12 +68,12 @@ section .container
 .box{
     background-image: url("fd401302.jpg");
     height:500px;
-    width:850px;
+    width:100%;
     background-size:cover;
     background-position:center center; 
 }
 @media(max-width:768px){
-    .box{
+                 .box{
         height: 250px;
     }
     #fruit .container{
